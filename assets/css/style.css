@@ -1,0 +1,24 @@
+.background{
+  background-image:url("../images/mapOfWorld.jpg");
+  height: 100%; 
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, html {
+    height:100% ;
+    margin: 0;
+}
+
+.container{
+   /* background-color:rgba(135, 206, 235, 0.233); */
+   padding-top: 100px;
+}
+
+h3{
+    color:rgba(182, 135, 73, 0.877);
+}
+
+hr{
+    color: red;
+}
