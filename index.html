@@ -9,6 +9,7 @@
     <title>Word Guess Game</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 
 <body>
@@ -25,34 +26,40 @@
     </div> -->
                 <div class="container">
                         <div class="row">
-                                <div class="col-md-4"> 
+                                <div class="col-md-12 col-sm-12"> 
                                         <h3>Press Any key to Get Started</h3>
                                         </div>
                                         </div>
-                                        <hr>  
-            <div class="col-md-12col-sm-12">
+                                        
+            <div class="col-md-9 col-sm-12">
                 <form action="/action_page.php">
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-md-9 col-sm-12">
                         <div class="form-group">
-                            <label id="myName" for="name">Name</label>
-                            <input id="myNameContainer" type="name" class="form-control" id="name" placeholder="John Smith">
+                            <label id="win" for="win">Wins</label>
+                            <input id="mywinContainer" type="win" class="form-control" id="win" placeholder="Wins">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-md-9 col-sm-12">
                         <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Example@gmail.com">
+                            <label for="word">Current Word</label>
+                            <input type="word" class="form-control" id="word" placeholder="Current Word">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-md-9 col-sm-12">
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <input id="messageContainer" type="message" class="form-control" id="message">
+                            <label for="Guess">Number of Guesses Remaining</label>
+                            <input id="GuessContainer" type="Guess" class="form-control" id="Guess">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-md-9 col-sm-12">
                         <div class="form-group">
-                            <button type="submit" class="btn btn-default">Submit</button>
+                            <label for="Guess">Number of Guesses Remaining</label>
+                            <input id="GuessContainer" type="Guess" class="form-control" id="Guess">
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <div class="form-group">
+                            <button type="reset" class="btn btn-default">Reset</button>
                         </div>
                     </div>
                 </form>
